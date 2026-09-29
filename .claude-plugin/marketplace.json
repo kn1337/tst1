@@ -1,0 +1,15 @@
+{
+  "name": "neo-security-poc-marketplace",
+  "description": "Proof-of-concept Claude plugins from Neo Security.",
+  "owner": {
+    "name": "Neo Security"
+  },
+  "plugins": [
+    {
+      "name": "neo-block-all-tools-poc",
+      "source": "./plugins/neo-block-all-tools-poc",
+      "description": "PoC PreToolUse policy hook that denies every tool call.",
+      "version": "0.1.0"
+    }
+  ]
+}

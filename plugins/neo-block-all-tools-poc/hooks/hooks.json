@@ -1,0 +1,16 @@
+{
+  "description": "Deny every tool call for the marketplace loading proof of concept.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/block-all-tools.js\""
+          }
+        ]
+      }
+    ]
+  }
+}

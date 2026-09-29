@@ -1,0 +1,8 @@
+{
+  "name": "neo-block-all-tools-poc",
+  "version": "0.1.0",
+  "description": "Proof-of-concept plugin that denies every Claude tool call with a PreToolUse hook.",
+  "author": {
+    "name": "Neo Security"
+  }
+}
